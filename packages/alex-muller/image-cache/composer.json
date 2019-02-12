@@ -1,0 +1,11 @@
+{
+    "name": "alex-muller/image-cache",
+    "description": "Resize and cache images",
+    "authors": [
+        {
+            "name": "Alex Muller",
+            "email": "mullerbox@gmail.com"
+        }
+    ],
+    "require": {}
+}

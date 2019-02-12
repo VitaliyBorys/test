@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1597px" height="277px" viewBox="0 0 1597 277" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="81.2911228%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FC5C7D" stop-opacity="0.224213089" offset="0%"></stop>
+            <stop stop-color="#6A82FB" stop-opacity="0.776126585" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.861413043">
+        <g id="Sign-In/Sign-Up---Background" transform="translate(-3.000000, -723.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-103" transform="translate(800.000000, 500.000000) scale(1, -1) translate(-800.000000, -500.000000) ">
+                <path d="M0,0 L1600,0 L1600,171.059688 C1384.55452,240.012702 1212.58791,275.225567 1084.10017,276.698284 C757.362825,280.425241 676.899964,192.477171 431.203338,102.299096 C185.506712,12.1210218 0,-1.12045468 0,0 Z" id="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>

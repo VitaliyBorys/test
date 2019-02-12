@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="317px" viewBox="0 0 1600 317" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="81.2911228%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FC5C7D" stop-opacity="0.836560236" offset="0%"></stop>
+            <stop stop-color="#6A82FB" stop-opacity="0.530457428" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.920742754">
+        <g id="Sign-In/Sign-Up---Background" transform="translate(0.000000, -683.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-103" transform="translate(800.000000, 500.000000) scale(1, -1) translate(-800.000000, -500.000000) ">
+                <path d="M-1.70530257e-12,2.22044605e-16 L1599.99558,-0.9495967 C1599.99558,171.019011 1599.99706,257.053159 1600,257.152847 C1600.00442,257.302378 1521.18359,240.945537 1435.72537,240.945537 C1281.65017,240.945537 1257.55063,316.205842 1147.8331,316.205842 C1068.06558,316.205842 1009.84089,269.865644 988.61431,245.698212 C967.387734,221.53078 912.90121,137.290156 781.620585,130.47633 C650.339961,123.662504 552.65917,187.41593 417.815237,188.977903 C265.298,190.736066 199.475848,144.525801 113.050499,106.706426 C77.5479438,91.1706544 46.8175356,75.6313459 0.0325502069,75.1281458 C0.0325502069,75.1281458 0.0217001379,50.0854305 -1.70530257e-12,2.22044605e-16 Z" id="2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
