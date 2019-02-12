@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\User;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 
@@ -238,5 +239,15 @@ class UserPrize extends Model
         if ($this->type == 'physical') {
             $this->physicalPrize()->first()->update(['status' => Prize::AVAILABLE]);
         }
+    }
+
+
+    /**
+     * @param Builder $builder
+     * @return Builder
+     */
+    public function scopeBonus(Builder $builder) : Builder
+    {
+        return $builder->where('prize_type','bonus');
     }
 }

@@ -79,6 +79,8 @@ class ProfileController extends Controller
      */
     public function withdraw()
     {
+
+        /** @var User $user */
         $user = \request()->user();
 
         if ($user->money > 0) {

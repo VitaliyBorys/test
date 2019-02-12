@@ -32,9 +32,9 @@ class UserCreateRequest extends FormRequest
             'lastname' => 'max:255',
             'name' => 'required|max:255',
             'phone' => 'max:255',
-            'email' => ['required', 'min:1', 'max:255', 'email', Rule::unique('users', 'unique:uses')],
+            'email' => ['required', 'min:1', 'max:255', 'email', Rule::unique('users', 'email')],
             'password' => 'required|min:6|max:255|confirmed',
-            'card' => 'unique:users|required'
+            'card' => ['required', 'min:1', 'max:255',Rule::unique('users', 'email')],
         ];
 
         if ($this->method() == 'PUT') {

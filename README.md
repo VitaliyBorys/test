@@ -28,3 +28,16 @@ sh init.sh
 login:john@doe.com
 password:secret
 ````
+
+>Консольная команду которая будет отправлять денежные призы на счета пользователей, которые еще не были отправлены пачкаим по N штук.
+
+ВАЖНО !!! КОМАНДУ НАДО ВЫПОЛНЯТЬ ИЗ ПОД КОНТЕЙНЕРА php-cli 
+
+````
+docker-compose exec php-cli php artisan payment:user {count_user}
+````
+
+> Если же вы не используете Docker
+````
+php artisan payment:user {count_user}
+````

@@ -3,6 +3,7 @@
 namespace App\Service;
 
 
+use App\Models\UserPrize;
 use App\User;
 use Illuminate\Database\Eloquent\Model;
 use phpDocumentor\Reflection\Types\Integer;
@@ -84,5 +85,7 @@ class PrizeService
         }
         $user->addMoney($user->bonuses * $koef);
         $user->addBonus($user->bonuses * (-1));
+
+        $user->prizes()->bonus()->update(['status' => UserPrize::STATUS_CONVERT]);
     }
 }
